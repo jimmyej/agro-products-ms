@@ -1,3 +1,8 @@
 spring:
   application:
     name: agro-products-ms
+  cloud:
+    config:
+      uri: http://localhost:8888
+      username: root
+      password: s3cr3t
